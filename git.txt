@@ -1,0 +1,24 @@
+ 一、 配置git 
+            git config --global user.name "username"
+            git config --global user.email useremail
+            git config --global vim
+
+二、 获取Git 仓库
+        1、将本地目录转换成git 仓库
+            git init 
+            git add filename
+            git commit -m "提交说明"
+
+        2、克隆现有的仓库
+            git clone https://github.com/study_note.git
+
+三、git基础
+        1、添加新的跟踪文件 git add
+        2、查看仓库中文件的状态 git status
+        3、放弃对文件的修改     git restore 
+        4、忽略文件             cat .gitignore
+        
+
+            
+
+     
