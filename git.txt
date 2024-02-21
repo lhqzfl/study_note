@@ -13,11 +13,14 @@
             git clone https://github.com/study_note.git
 
 三、git基础
-        1、添加新的跟踪文件 git add
+        1、添加新的跟踪文件     git add
         2、查看仓库中文件的状态 git status
         3、放弃对文件的修改     git restore 
         4、忽略文件             cat .gitignore
-        
+        5、删除跟踪文件         git rm 
+        6、移动(重命名)文件     git mv
+        7、提交更新             git commit
+        8、查看提交历史         git log
 
             
 
