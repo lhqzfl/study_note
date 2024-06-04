@@ -1,0 +1,12 @@
+启动服务器 : sshd
+
+连接服务器：ssh -p port username@ipdress
+
+生成密钥：ssh-keygen -t rsa 
+		将生成的公钥复制到远程主机的～/.ssh/authorized_key 文件夹
+
+在本地和远程之间复制文件：scp -P port  username@ipdress:~/path/filename  .
+			  scp -P port ~/path/file username@ipdress:~/path/
+			  scp -P port -r ~/path/dir  username@ipdress:~/path/
+
+
